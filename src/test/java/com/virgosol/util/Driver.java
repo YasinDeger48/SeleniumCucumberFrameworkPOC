@@ -21,7 +21,7 @@ public class Driver {
 
         if (driverPool.get() == null) {
 
-            String browser = "chrome-headless";
+            String browser = "chrome";
 
             switch (browser) {
                 case "chrome":
