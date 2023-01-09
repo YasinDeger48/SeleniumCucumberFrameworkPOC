@@ -1,7 +1,7 @@
 @wipSele
 Feature: Login Scenarios
 
-
+  @wip6
   Scenario: OrangeHRM Login Scenario
     Given "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login" sitesini aç.
     When Login syfasında olduğunu doğrula.
@@ -19,7 +19,6 @@ Feature: Login Scenarios
     And Click Login button
     Then Verify on login page
 
-
   Scenario: OrangeHRM Login Scenario 3
     Given "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login" sitesini aç.
     When Login syfasında olduğunu doğrula.
@@ -28,7 +27,7 @@ Feature: Login Scenarios
     And Click Login button
     Then Verify on login page
 
-  @wipso
+  @wip1
   Scenario Outline: MoodleDemo sandbox Login with diff credentials
     Given "https://sandbox.moodledemo.net/" sitesini aç.
     When Login linkine tıkla.

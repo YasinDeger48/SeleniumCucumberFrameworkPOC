@@ -1,0 +1,19 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="TestRunner BS" type="JUnit" factoryName="JUnit">
+    <module name="SeleniumCucumberFrameworkPOC" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="com.virgosol.runner.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <option name="PACKAGE_NAME" value="com.virgosol.runner" />
+    <option name="MAIN_CLASS_NAME" value="com.virgosol.runner.TestRunner" />
+    <option name="METHOD_NAME" value="" />
+    <option name="TEST_OBJECT" value="class" />
+    <option name="VM_PARAMETERS" value="-ea -javaagent:$MAVEN_REPOSITORY$/com/browserstack/browserstack-java-sdk/1.1.6/browserstack-java-sdk-1.1.6.jar" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

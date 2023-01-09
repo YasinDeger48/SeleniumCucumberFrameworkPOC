@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 
-        tags = "@wipSele",
+        tags = "",
         dryRun = false,
         features = "src/test/resources/features",
         glue = {"com/virgosol/stepImpl"},
@@ -17,5 +17,6 @@ import org.junit.runner.RunWith;
                 "html:target/cucumber-reports"}
 )
 
-public class TestRunner {
-}
+public class TestRunner {}
+
+

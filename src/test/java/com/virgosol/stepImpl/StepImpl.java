@@ -5,7 +5,6 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.openqa.selenium.By;
-
 import static org.junit.Assert.assertTrue;
 
 public class StepImpl {
@@ -59,6 +58,9 @@ public class StepImpl {
     }
     @Then("Verify on login page")
     public void verify_on_login_page() {
-        assertTrue(Driver.getDriver().findElement(By.xpath("//h6[.='Dashboard']")).isDisplayed());
+        String title = Driver.getDriver().getCurrentUrl();
+        System.out.println("title = " + title);
+        assertTrue(title.contains("dashboard"));
     }
+
 }
